@@ -1,0 +1,17 @@
+# Allow .env files to be accessed by Cursor AI
+!.env
+!.env.*
+!.env.local
+!.env.development
+!.env.production
+
+# Ignore other sensitive files
+node_modules/
+.git/
+.DS_Store
+*.log
+
+# Standard ignores
+.next/
+dist/
+build/ 
