@@ -1,5 +1,7 @@
 # Dev-Bug-Coder-Blog -- ReactVite
 
+<img width="1356" alt="Screenshot 2025-06-11 at 04 02 17" src="https://github.com/user-attachments/assets/d0075879-9e1e-44bd-b316-c85937fe6b7f" /> <img width="1338" alt="Screenshot 2025-06-11 at 04 03 40" src="https://github.com/user-attachments/assets/9ca15253-433e-45d3-b950-ff92b9f32c02" />
+
 A modern, full-stack developer blog platform focused on sharing real-world coding errors and their solutions. Dev-Bug-Coder-Blog empowers developers to post, discuss, and resolve bugs, fostering a collaborative learning environment.
 
 - **Oline-Live:** https://dev-bug-coder-blog.vercel.app/
