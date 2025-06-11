@@ -2,6 +2,8 @@
 
 A modern, full-stack developer blog platform focused on sharing real-world coding errors and their solutions. Dev-Bug-Coder-Blog empowers developers to post, discuss, and resolve bugs, fostering a collaborative learning environment.
 
+- **Oline-Live:** https://dev-bug-coder-blog.vercel.app/
+
 ---
 
 ## 🚀 Features
