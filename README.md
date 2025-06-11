@@ -1,4 +1,4 @@
-# Dev-Bug-Coder-Blog
+# Dev-Bug-Coder-Blog -- ReactVite
 
 A modern, full-stack developer blog platform focused on sharing real-world coding errors and their solutions. Dev-Bug-Coder-Blog empowers developers to post, discuss, and resolve bugs, fostering a collaborative learning environment.
 
