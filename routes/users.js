@@ -6,10 +6,13 @@ const prisma = new PrismaClient();
 
 // Get current user's saved posts
 router.get("/me/saved-posts", authenticate, async (req, res) => {
+  if (!req.userId) {
+    // If not authenticated, return an empty array instead of 403
+    return res.status(200).json([]);
+  }
   try {
-    const userId = req.userId;
     const saved = await prisma.savedPost.findMany({
-      where: { userId },
+      where: { userId: req.userId },
       include: {
         post: {
           include: {
