@@ -15,6 +15,7 @@ import EditProfile from "./pages/EditProfile";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import Notifications from "./pages/Notifications";
+import PageNotFound from "./pages/PageNotFound";
 
 const App: React.FC = () => {
   return (
@@ -38,6 +39,8 @@ const App: React.FC = () => {
 
           <Route path="/admin/reports" element={<AdminReports />} />
           {/* Add EditProfile route later */}
+          {/* Catch-all route for 404 */}
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </div>
       <Footer />

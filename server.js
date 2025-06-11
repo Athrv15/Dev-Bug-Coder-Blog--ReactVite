@@ -55,6 +55,11 @@ app.use("/api/users", userRoutes);
 app.use("/api/reports", reportRoutes);
 app.use("/api/notifications", notificationsRoutes);
 
+// Add this after all your other routes
+app.get("/", (req, res) => {
+  res.send("Dev-Bug-Coder-Blog API is running!");
+});
+
 // 404 handler
 app.use((req, res) => {
   console.log("404 Not Found:", req.url);
